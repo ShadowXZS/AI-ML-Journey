@@ -1,0 +1,5 @@
+# Ignore all data folders anywhere in the project
+**/data/
+
+# Ignore the huge fake file
+fake_huge_dataset.csv
