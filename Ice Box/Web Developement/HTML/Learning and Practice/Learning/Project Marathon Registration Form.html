@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Race Registration Form</title>
+  </head>
+  <body>
+    <h1>Race Registration</h1>
+    <form action="">
+      <div>
+        <label for="first_name">First Name</label>
+        <input
+          type="text"
+          id="first_name"
+          name="first_name"
+          required
+          min="5"
+          max="30"
+          placeholder="Enter your First Name"
+        />
+        <label for="last_name">Last Name</label>
+        <input
+          type="text"
+          id="last_name"
+          name="last_name"
+          required
+          min="2"
+          max="25"
+          placeholder="Enter your Last Name"
+        />
+      </div>
+      <div>
+        <p>Select a Race</p>
+        <p>
+          <label for="100m">Sprint 100m.</label>
+          <input type="radio" name="race_type" value="100m" id="100m" />
+        </p>
+        <p>
+          <label for="200m">Sprint 200m.</label>
+          <input type="radio" name="race_type" value="200m" id="200m" />
+        </p>
+        <p>
+          <label for="relay_200m">Relay 200m*4</label>
+          <input
+            type="radio"
+            name="race_type"
+            value="relay_200m"
+            id="relay_200m"
+          />
+        </p>
+        <p>
+          <label for="Marathon">Marathon</label>
+          <input type="radio" name="race_type" value="Marathon" id="Marathon" />
+        </p>
+      </div>
+      <div>
+        <p>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            required
+            name="email"
+            id="email"
+            placeholder="Enter Your Email"
+          />
+        </p>
+        <p>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            required
+            name="password"
+            id="password"
+            placeholder="Enter Your Password"
+          />
+        </p>
+        <p>
+          <select name="age_group" id="age_group">
+            <option value="">--Please Select Your Age Group--</option>
+            <option value="under18">&lt;18</option>
+            <option value="18to30">18-30</option>
+            <option value="30to50">30-50</option>
+            <option value="above50">&gt;50</option>
+          </select>
+        </p>
+      </div>
+      <button>Register</button>
+    </form>
+    <!-- Only Radio Buttons and Checkboxes Select Options Contain value, Setting Value of Text Changes the Value of Text Box. Value only required for no userentry input types. -->
+  </body>
+</html>

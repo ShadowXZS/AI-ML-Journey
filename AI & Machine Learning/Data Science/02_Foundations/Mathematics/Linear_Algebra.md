@@ -1,0 +1,1 @@
+"Linear Algebra is not about numbers. It is about Space. It is the science of knowing where you are, where you are going, and how to rotate the world to see the answer."

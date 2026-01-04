@@ -1,0 +1,22 @@
+h3 {
+    color: burlywood;
+}
+button {
+    color: aqua;
+    background-color: grey;
+}
+/* Use Background-Color Property to change the background color. Can Reference Colours from external color picker.
+RGB(0,0,0)Hexadecimal Value and HSL  Semi Colon at the end of every property is essential.*/
+
+h4 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 25px ;
+    font-family: Verdana, sans-serif;
+}
+p {
+    line-height: 2;
+    text-decoration: none;
+}
+/* line height controls spacing between 2 lines, Where as letter spacing controls the spacing between letters. Text decoration can include underline over line , or simply remove it all together for links (they can include color property) */
+/* Font Size to change the font size of the componenet and font-family to change the font type. */

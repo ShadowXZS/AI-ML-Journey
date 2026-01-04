@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "4d9938405419acf6",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb18d3828b7fff3e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6d4fa3713a88ac6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c2dd69a2e6743d3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "687c77e9416ec3a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aae65968fe237d98",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d59222a70b95bbfc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3621d9ddf5de728e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7aaa369a927ad2b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d5247fe10005079",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f823b2d514b60f2a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "aaee553778abaf22",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "9131e4ae52062c68",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a3d12a8eb2bdf83f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "8e3bfb9b0f800ae3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "aae65968fe237d98",
+  "lastOpenFiles": [
+    "02_Foundations/Programming/Python_Basics.md",
+    "01_Feedback_Loop/Mentor_Feedback/Day 3 Feedback.md",
+    "01_Feedback_Loop/Mentor_Feedback/Day 2 Feedback.md",
+    "02_Foundations/Mathematics/Linear_Algebra.md",
+    "02_Foundations/Mathematics/Foundation/Arithmetic.md",
+    "02_Foundations/Mathematics/Foundation",
+    "01_Feedback_Loop/Mentor_Feedback/Day 0 Feedback.md",
+    "99_Resources/Python+Syntax+Cheat+Sheet+Booklet.pdf",
+    "01_Feedback_Loop/Self_Reflections/Self_Reflections_Template.md",
+    "99_Resources/CheatSheets.md",
+    "99_Resources/Research_Papers.md",
+    "99_Resources/Courses.md",
+    "99_Resources/Books.md",
+    "07_Meta_Learning/Workflow_Diagrams.md",
+    "07_Meta_Learning/Tag_Hierarchy.md",
+    "07_Meta_Learning/Learning_Strategies.md",
+    "05_AI_Applications/Recommendation_Systems.md",
+    "99_Resources",
+    "07_Meta_Learning",
+    "06_Projects_Portfolio/Advanced",
+    "06_Projects_Portfolio/Intermediate",
+    "06_Projects_Portfolio/Beginner",
+    "06_Projects_Portfolio",
+    "05_AI_Applications/Speech_Recognition.md",
+    "05_AI_Applications/Computer_Vision/Object_Detection.md",
+    "05_AI_Applications/Computer_Vision/Image_Classification.md",
+    "05_AI_Applications/Computer_Vision",
+    "05_AI_Applications/NLP/LLMs.md",
+    "05_AI_Applications/NLP/Embeddings.md",
+    "05_AI_Applications/NLP/Text_Classification.md",
+    "04_Deep_Learning/GANs.md",
+    "05_AI_Applications/NLP",
+    "04_Deep_Learning/Transformers.md",
+    "04_Deep_Learning/RNNs.md",
+    "04_Deep_Learning/CNNs.md",
+    "04_Deep_Learning/Neural_Networks_Basics.md",
+    "Untitled.canvas"
+  ]
+}

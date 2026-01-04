@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms & Table</title>
+  </head>
+  <body>
+    <h1>Largest Dog Breeds</h1>
+    <table>
+      <tr>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Average Height</th>
+        <th>Average Weight</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Mastiff (English)</td>
+        <td>72-80cm</td>
+        <td>54-73kg</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Irish Wolfhound</td>
+        <td>71-79cm</td>
+        <td>90-120lbs</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Saint Bernard</td>
+        <td>74-75cm</td>
+        <td>64-82kg</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Newfoundland</td>
+        <td>66-71cm</td>
+        <td>50-69kg</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Dogue de Bordeaux</td>
+        <td>58-68cm</td>
+        <td>45-50kg</td>
+      </tr>
+    </table>
+    <!-- The above is Basic Table, https://html.com/tables/, this is the link for complex table explaination. -->
+    <table>
+      <thead>
+        <tr>
+          <th colspan="3">Invoice #123456789</th>
+          <th>14 January 2025</th>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <strong>Pay to:</strong><br />
+            Acme Billing Co.<br />
+            123 Main St.<br />
+            Cityville, NA 12345
+          </td>
+          <td colspan="2">
+            <strong>Customer:</strong><br />
+            John Smith<br />
+            321 Willow Way<br />
+            Southeast Northwestershire, MA 54321
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name / Description</th>
+          <th>Qty.</th>
+          <th>@</th>
+          <th>Cost</th>
+        </tr>
+        <tr>
+          <td>Paperclips</td>
+          <td>1000</td>
+          <td>0.01</td>
+          <td>10.00</td>
+        </tr>
+        <tr>
+          <td>Staples (box)</td>
+          <td>100</td>
+          <td>1.00</td>
+          <td>100.00</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="3">Subtotal</th>
+          <td>110.00</td>
+        </tr>
+        <tr>
+          <th colspan="2">Tax</th>
+          <td>8%</td>
+          <td>8.80</td>
+        </tr>
+        <tr>
+          <th colspan="3">Grand Total</th>
+          <td>$ 118.80</td>
+        </tr>
+      </tfoot>
+    </table>
+    <!-- Complex Table  -->
+    <h1>Forms</h1>
+    <form action="">
+      <p>
+        <label for="Username">Enter Your Username</label>
+        <input
+          type="text"
+          placeholder="Username"
+          id="Username"
+          name="Username"
+          required
+        />
+      </p>
+      <p>
+        <label for="Password">Enter Your Password</label>
+        <input
+          type="password"
+          placeholder="Enter Your Password"
+          id="Password"
+          name="Password"
+          required
+        />
+      </p>
+      <p>
+        <label for="Number">Enter Your Number</label>
+        <input
+          type="number"
+          placeholder="Enter Number"
+          id="Number"
+          name="Number"
+          required
+        />
+      </p>
+      <!-- Any button inside the form Submits the form.(Set the type to Button to negate this effect.) -->
+      <button>Submit</button>
+      <!-- The below button behaves like a button.  -->
+      <button type="Button">Submit</button>
+    </form>
+    <form action="https://www.reddit.com/search/">
+      <label for="Search">Search Reddit</label>
+      <input type="text" placeholder="Search" id="Search" name="q" />
+      <button>Search Reddit</button>
+    </form>
+    <form action="https://www.google.com/search">
+      <label for="search"> Search Google</label>
+      <input type="text" name="q" id="search" />
+      <button>Search Google</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+      <label for="search">Search Youtube</label>
+      <input type="text" name="search_query" id="search" />
+      <button>Search Youtube</button>
+    </form>
+    <form action="">
+      <p>Select the type of Subscrption</p>
+      <label for="basic">Basic Membership</label>
+      <input type="radio" name="type" id="basic" value="basic" />
+      <label for="premium">Premium Membership</label>
+      <input type="radio" name="type" id="premium" value="premium" />
+      <label for="platinum">Platinum Membership</label>
+      <input type="radio" name="type" id="platinum" value="platunum" />
+      <label for="terms_of_service"
+        >I hearby consent to the terms and conditions of the website.</label
+      >
+      <input type="checkbox" name="terms_of_service" id="agree" value="agree" />
+      <!-- Select is a input out of Input Type, Label Can be tagged to Select Input Type. -->
+      <label for="survey"
+        >Please let us know how you found out about us?
+      </label>
+      <select name="survey" id="survey">
+        <option value="">--Please select how you got to know about us ?--</option>
+        <option value="friends&family">Friends and Family.</option>
+        <option value="online">Online</option>
+        <option value="billboards">Billboards</option>
+        <option value="newspaper">Newspaper</option>
+      </select>
+      <!-- Step increments the slider  -->
+      <label for="feedback">Please Submit your Feedback</label>
+      <textarea name="feedback" name="feedback" id="feedback" cols="30" rows="10" placeholder="Enter Your Feedback."></textarea>
+      <label for="satisfaction">How satisfied are you with us </label>
+      <input type="range" min="1" max="100" step="5" id="satisfaction" name="satisfaction" value="satisfaction">
+      <input type="number" min="1" max="100" id="satisfaction" name="satisfaction" value="satisfaction">
+      <button>Submit</button>
+    </form>
+    <!-- Required will require that part of form to be filled before submitting -->
+    <!-- URL and Email will look for a particular pattern with the required field, will not check for its correctness. -->
+  </body>
+</html>
