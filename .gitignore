@@ -1,5 +1,10 @@
 # Ignore all data folders anywhere in the project
 **/data/
-
+*.sh
+*.exe
+*.msi
+venv/
+env/
+.env
 # Ignore the huge fake file
 fake_huge_dataset.csv
