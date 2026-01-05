@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a5934268cec11d6f",
+        "id": "5baaed869bc99f8d",
         "type": "tabs",
         "children": [
           {
-            "id": "e0aaaf8896de94a3",
+            "id": "be6c197d0282c11c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -178,7 +178,9 @@
   },
   "active": "aae65968fe237d98",
   "lastOpenFiles": [
+    "02_Foundations/Programming/Workflow",
     "02_Foundations/Programming/Conda Maintenance.md",
+    "02_Foundations/Programming/Workflow/🚀 Daily AI Engineering Workflow.md",
     "02_Foundations/Programming/Git and GitHub.md",
     "Untitled",
     "02_Foundations/Programming/Python_Basics.md",
@@ -212,8 +214,6 @@
     "05_AI_Applications/NLP/Embeddings.md",
     "05_AI_Applications/NLP/Text_Classification.md",
     "04_Deep_Learning/GANs.md",
-    "04_Deep_Learning/Transformers.md",
-    "04_Deep_Learning/RNNs.md",
     "Untitled.canvas"
   ]
 }
