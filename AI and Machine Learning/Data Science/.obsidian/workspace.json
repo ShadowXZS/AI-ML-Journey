@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f4bb14674884c8cd",
+        "id": "86eb15bd11ca5eab",
         "type": "tabs",
         "children": [
           {
-            "id": "553bb7e8998ef1f6",
+            "id": "63dadadb3be07511",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,7 +180,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "553bb7e8998ef1f6",
+  "active": "63dadadb3be07511",
   "lastOpenFiles": [
     "02_Foundations/Programming/Conda Maintenance.md",
     "02_Foundations/Programming/Git and GitHub.md",
