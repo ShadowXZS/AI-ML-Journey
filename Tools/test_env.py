@@ -11,7 +11,7 @@ print(f"✅ XGBoost Version: {xgboost.__version__}")
 
 print("\n--- GPU CHECK ---")
 if torch.cuda.is_available():
-    print(f"✅ CUDA is available!")
+    print("✅ CUDA is available!")
     print(f"   GPU Name: {torch.cuda.get_device_name(0)}")
     print(f"   PyTorch Version: {torch.__version__}")
 else:
