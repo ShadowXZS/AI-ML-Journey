@@ -1,0 +1,86 @@
+name: aiandml_env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  # ------------------------------------------------
+  # 🐍 CORE PYTHON & JUPYTER (The Workbench)
+  # ------------------------------------------------
+  - python=3.10
+  - jupyterlab
+  - notebook
+  - ipykernel
+
+  # ------------------------------------------------
+  # 📐 MATH & STATISTICS (Phase 1 - The Source)
+  # ------------------------------------------------
+  - numpy
+  - scipy
+  - sympy               # For Symbolic Math (Math by Coding)
+  - statsmodels         # For Advanced Statistics (Mike X Cohen)
+
+  # ------------------------------------------------
+  # 📊 DATA MANIPULATION & VIZ (Phase 2 - The Current)
+  # ------------------------------------------------
+  - pandas
+  - matplotlib
+  - seaborn
+  - plotly              # For 3D Visualizations (Linear Algebra)
+  - openpyxl            # To read Excel files
+  - sqlalchemy          # For SQL Database connection
+  - pymysql             # MySQL Driver
+
+  # ------------------------------------------------
+  # 🤖 CLASSICAL ML (Phase 2 - The Diagnosis)
+  # ------------------------------------------------
+  - scikit-learn
+  - xgboost             # The Kaggle Champion
+  - lightgbm
+
+  # ------------------------------------------------
+  # 🧠 DEEP LEARNING (Phase 3 - The Rapid)
+  # ------------------------------------------------
+  # Installs PyTorch. Conda will try to detect CUDA on Windows.
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8   # Specific CUDA version for your RTX 3060
+
+  # ------------------------------------------------
+  # 🗣️ NLP & TRANSFORMERS (Phase 3 & 4 - The Torrent)
+  # ------------------------------------------------
+  - spacy
+  - nltk
+  - transformers        # Hugging Face (The gold standard)
+  - tokenizers
+
+  # ------------------------------------------------
+  # ☁️ BIG DATA, CLOUD & WEB (The Scale)
+  # ------------------------------------------------
+  - pyspark             # For Apache Spark/Databricks
+  - boto3               # AWS SDK (To talk to S3/EC2)
+  - flask               # API Backend
+  - streamlit           # For your Demo Dashboards
+  - requests            # To hit APIs (Angela Yu Day 33)
+
+  # ------------------------------------------------
+  # 🛠️ MLOPS & UTILITIES (The Professional)
+  # ------------------------------------------------
+  - mlflow              # For Model Tracking
+  - pytest              # For Testing Code
+  - black               # For Code Formatting
+  - python-dotenv       # To manage secrets (API Keys)
+  - tqdm                # Progress bars
+
+  # ------------------------------------------------
+  # 📦 PIP FALLBACK (For things not in Conda)
+  # ------------------------------------------------
+  - pip
+  - pip:
+    - opendatasets      # Easy Kaggle Downloads
+    - kaggle            # Kaggle API
+    - openai            # OpenAI Client (For Phase 4)
+    - langchain         # GenAI Framework (For Phase 4)
+    - python-multipart  # Needed for FastAPI/AWS

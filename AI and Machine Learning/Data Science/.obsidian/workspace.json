@@ -11,10 +11,14 @@
             "id": "a6d4fa3713a88ac6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02_Foundations/Programming/Git and GitHub.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Git and GitHub"
             }
           }
         ]
@@ -176,8 +180,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "aae65968fe237d98",
+  "active": "a6d4fa3713a88ac6",
   "lastOpenFiles": [
+    "02_Foundations/Programming/Git and GitHub.md",
     "02_Foundations/Programming/Python_Basics.md",
     "01_Feedback_Loop/Mentor_Feedback/Day 3 Feedback.md",
     "01_Feedback_Loop/Mentor_Feedback/Day 2 Feedback.md",
@@ -213,7 +218,6 @@
     "04_Deep_Learning/Transformers.md",
     "04_Deep_Learning/RNNs.md",
     "04_Deep_Learning/CNNs.md",
-    "04_Deep_Learning/Neural_Networks_Basics.md",
     "Untitled.canvas"
   ]
 }
