@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "86eb15bd11ca5eab",
+        "id": "a5934268cec11d6f",
         "type": "tabs",
         "children": [
           {
-            "id": "63dadadb3be07511",
+            "id": "e0aaaf8896de94a3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02_Foundations/Programming/Conda Maintenance.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Conda Maintenance"
+              "title": "New tab"
             }
           }
         ]
@@ -180,7 +176,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "63dadadb3be07511",
+  "active": "aae65968fe237d98",
   "lastOpenFiles": [
     "02_Foundations/Programming/Conda Maintenance.md",
     "02_Foundations/Programming/Git and GitHub.md",
