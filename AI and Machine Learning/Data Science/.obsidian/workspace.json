@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "aa5f1c198a87655b",
+        "id": "b53304aa2f7a1383",
         "type": "tabs",
         "children": [
           {
-            "id": "f8252d8173275ca0",
+            "id": "62cd934d64336f14",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_Daily_Journal/🧠 The Day 0 Summary Building the AI Engine.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "🧠 The Day 0 Summary Building the AI Engine"
+              "title": "New tab"
             }
           }
         ]
@@ -180,12 +176,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "f8252d8173275ca0",
+  "active": "aae65968fe237d98",
   "lastOpenFiles": [
+    "02_Foundations/Programming/System Ops/Ubuntu Maintenance.md",
     "00_Daily_Journal/🧠 The Day 0 Summary Building the AI Engine.md",
-    "02_Foundations/Programming/Workflow",
+    "02_Foundations/Programming/System Ops",
     "02_Foundations/Programming/Conda Maintenance.md",
-    "02_Foundations/Programming/Workflow/🚀 Daily AI Engineering Workflow.md",
+    "02_Foundations/Programming/System Ops/Daily AI Engineering Workflow.md",
     "02_Foundations/Programming/Git and GitHub.md",
     "Untitled",
     "02_Foundations/Programming/Python_Basics.md",
@@ -217,7 +214,6 @@
     "05_AI_Applications/NLP/LLMs.md",
     "05_AI_Applications/NLP/Embeddings.md",
     "05_AI_Applications/NLP/Text_Classification.md",
-    "04_Deep_Learning/GANs.md",
     "Untitled.canvas"
   ]
 }
