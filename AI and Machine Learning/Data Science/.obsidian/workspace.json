@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "049874b97c2c013e",
+        "id": "1216bd4807996d3b",
         "type": "tabs",
         "children": [
           {
-            "id": "b3ecabc91bcb0c82",
+            "id": "506664a3e1880a3d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -176,15 +176,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "b3ecabc91bcb0c82",
+  "active": "506664a3e1880a3d",
   "lastOpenFiles": [
+    "02_Foundations/Programming/Git and GitHub.md",
     "The Breakthrough Mindset.md",
     "02_Foundations/Programming/System Ops/Ubuntu Maintenance.md",
     "00_Daily_Journal/🧠 The Day 0 Summary Building the AI Engine.md",
     "02_Foundations/Programming/System Ops",
     "02_Foundations/Programming/Conda Maintenance.md",
     "02_Foundations/Programming/System Ops/Daily AI Engineering Workflow.md",
-    "02_Foundations/Programming/Git and GitHub.md",
     "Untitled",
     "02_Foundations/Programming/Python_Basics.md",
     "01_Feedback_Loop/Mentor_Feedback/Day 3 Feedback.md",
