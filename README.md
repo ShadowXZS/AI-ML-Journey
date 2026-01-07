@@ -65,3 +65,15 @@ This repository is not static—it is a **living roadmap**.
 - By January 2027, this journey culminates in employment readiness, backed by a portfolio of real-world projects.  
 
 > ⚡ *Note: Projects listed here are initial plans. As I grow, I may add or replace projects to reflect new skills and interests.*  
+
+## 📝 Notes Disclaimer
+This repository includes my **complete notes**, linked to my Obsidian vault.  
+These notes are a mix of:
+- **Technical content**: math, data science, AI/ML concepts, code explanations.  
+- **Personal reflections**: motivational entries, reminders, and thoughts written for my future self.  
+
+⚡ **Important**: The personal content is intentional.  
+It serves as motivation and resilience tracking throughout my journey.  
+Recruiters, mentors, or collaborators are welcome to focus on the technical sections and ignore the personal reflections if they prefer.  
+
+This repo is both a **portfolio** and a **journal of growth** — every commit reflects not just skills, but also the mindset behind them.
