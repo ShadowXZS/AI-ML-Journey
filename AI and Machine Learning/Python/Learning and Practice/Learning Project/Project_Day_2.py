@@ -30,23 +30,24 @@ print("--------------------------START-------------------------------\n You arri
 print("welcome to Treasure Island")
 print("Instruction: Type Left or Right . To Select Your Path.")
 choice_one = input("Which Direction You wish to go Left Or Right ? :")
-if choice_one == "Right" or "right":
+if choice_one == "Right" or choice_one == "right":
+    #In Python, this logic does not mean "If choice is 'Right' OR choice is 'right'". It is evaluated as: (if choice_one == "Right") OR ("right"). Since the string "right" is not empty, Python considers it True. Therefore, this if statement ALWAYS evaluates to True. Even if I type "Left", the game will think I typed "Right".
     print("Game Over (Fall into a Hole)")
-elif choice_one == "Left" or "left":
+elif choice_one == "Left" or  choice_one == "left":
     print("Continue.")
     print("Instruction: Type Swim or Wait. To Select Your Path.")
     choice_two = input("There is a River Would you Swim or Wait ? :")
-    if choice_two == "Swim" or "swim":
+    if choice_two == "Swim" or choice_two == "swim":
         print("Game Over (Attacked by trout)")
-    elif choice_two == "Wait" or "wait":
+    elif choice_two == "Wait" or choice_two == "wait":
         print("Continue.")
         print("Instruction: Type Red, Yellow or Blue. To Select Your Path.")
         choice_three = input("Which Door ? Red, Yellow, Blue : ")
-        if choice_three == "Red" or "red":
+        if choice_three == "Red" or choice_three == "red":
             print("Game Over (Burned By Fire)")
-        elif choice_three == "Blue" or "blue":
+        elif choice_three == "Blue" or choice_three == "blue":
             print("Game Over (Eaten By Beasts)")
-        elif choice_three == "Yellow" or "yellow":
+        elif choice_three == "Yellow" or choice_three == "yellow":
             print("YOU WIN!")
         else:
             print("Please Check your Choice and Try Again ")
