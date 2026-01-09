@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Breakthrough Mindset.md",
+                "file": "02_Foundations/Programming/Python_Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Breakthrough Mindset"
+              "title": "Python_Basics"
             }
           }
         ]
@@ -182,6 +182,7 @@
   },
   "active": "6f592627a0549d80",
   "lastOpenFiles": [
+    "The Breakthrough Mindset.md",
     "99_Resources/Books.md",
     "02_Foundations/Mathematics/Foundation/Arithmetic.md",
     "02_Foundations/Programming/System Ops/Ubuntu Maintenance.md",
@@ -193,7 +194,6 @@
     "02_Foundations/Programming/Dev Ops/Git and GitHub.md",
     "01_Feedback_Loop/Mentor_Feedback/Day 2 Feedback.md",
     "00_Daily_Journal/Battle Log/The Day 0 Summary Building the AI Engine.md",
-    "The Breakthrough Mindset.md",
     "02_Foundations/Programming/System Ops",
     "02_Foundations/Programming/System Ops/Daily AI Engineering Workflow.md",
     "Untitled",
