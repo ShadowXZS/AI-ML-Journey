@@ -31,8 +31,12 @@ print("welcome to Treasure Island")
 print("Instruction: Type Left or Right . To Select Your Path.")
 choice_one = input("Which Direction You wish to go Left Or Right ? :")
 if choice_one.lower() == "right":
-    #Lower Function,  the lower() function is a string method that returns a new string where all uppercase alphabetic characters are converted to lowercase.
-    #In Python, this logic does not mean "If choice is 'Right' OR choice is 'right'". It is evaluated as: (if choice_one == "Right") OR ("right"). Since the string "right" is not empty, Python considers it True. Therefore, this if statement ALWAYS evaluates to True. Even if I type "Left", the game will think I typed "Right".
+#Lower Function,  the lower() function is a string method that returns a new string where all uppercase alphabetic characters are converted to lowercase.
+#In Python, this logic does not mean "If choice is 'Right' OR choice is 'right'". It is evaluated as: (if choice_one == "Right") OR ("right"). Since the string "right" is not empty, Python considers it True. Therefore, this if statement ALWAYS evaluates to True. Even if I type "Left", the game will think I typed "Right".
+# MISTAKE LESSON:
+# I used to write: if choice == "Left" or "left": 
+# This was wrong because non-empty strings are always True.
+# FIXED LOGIC: Using .lower() to normalize input.
     print("Game Over (Fall into a Hole)")
 elif choice_one.lower() == "left":
     print("Continue.")
