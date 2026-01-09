@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Foundations/Programming/Python_Basics.md",
+                "file": "The Breakthrough Mindset.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python_Basics"
+              "title": "The Breakthrough Mindset"
             }
           }
         ]
@@ -182,19 +182,22 @@
   },
   "active": "6f592627a0549d80",
   "lastOpenFiles": [
-    "02_Foundations/Programming/Python_Basics.md",
-    "01_Feedback_Loop/Mentor_Feedback/Day 2 Feedback.md",
-    "00_Daily_Journal/The Day 0 Summary Building the AI Engine.md",
-    "02_Foundations/Programming/Git and GitHub.md",
-    "The Breakthrough Mindset.md",
+    "99_Resources/Books.md",
+    "02_Foundations/Mathematics/Foundation/Arithmetic.md",
     "02_Foundations/Programming/System Ops/Ubuntu Maintenance.md",
+    "01_Feedback_Loop/Mentor_Feedback/Day 3 Feedback.md",
+    "02_Foundations/Programming/Dev Ops",
+    "02_Foundations/Programming/Python_Basics.md",
+    "00_Daily_Journal/Battle Log",
+    "02_Foundations/Programming/Dev Ops/Conda Maintenance.md",
+    "02_Foundations/Programming/Dev Ops/Git and GitHub.md",
+    "01_Feedback_Loop/Mentor_Feedback/Day 2 Feedback.md",
+    "00_Daily_Journal/Battle Log/The Day 0 Summary Building the AI Engine.md",
+    "The Breakthrough Mindset.md",
     "02_Foundations/Programming/System Ops",
-    "02_Foundations/Programming/Conda Maintenance.md",
     "02_Foundations/Programming/System Ops/Daily AI Engineering Workflow.md",
     "Untitled",
-    "01_Feedback_Loop/Mentor_Feedback/Day 3 Feedback.md",
     "02_Foundations/Mathematics/Linear_Algebra.md",
-    "02_Foundations/Mathematics/Foundation/Arithmetic.md",
     "02_Foundations/Mathematics/Foundation",
     "01_Feedback_Loop/Mentor_Feedback/Day 0 Feedback.md",
     "99_Resources/Python+Syntax+Cheat+Sheet+Booklet.pdf",
@@ -202,7 +205,6 @@
     "99_Resources/CheatSheets.md",
     "99_Resources/Research_Papers.md",
     "99_Resources/Courses.md",
-    "99_Resources/Books.md",
     "07_Meta_Learning/Workflow_Diagrams.md",
     "07_Meta_Learning/Tag_Hierarchy.md",
     "07_Meta_Learning/Learning_Strategies.md",
@@ -211,13 +213,10 @@
     "07_Meta_Learning",
     "06_Projects_Portfolio/Advanced",
     "06_Projects_Portfolio/Intermediate",
-    "06_Projects_Portfolio/Beginner",
-    "06_Projects_Portfolio",
     "05_AI_Applications/Speech_Recognition.md",
     "05_AI_Applications/Computer_Vision/Object_Detection.md",
     "05_AI_Applications/Computer_Vision/Image_Classification.md",
     "05_AI_Applications/NLP/LLMs.md",
-    "05_AI_Applications/NLP/Embeddings.md",
     "Untitled.canvas"
   ]
 }

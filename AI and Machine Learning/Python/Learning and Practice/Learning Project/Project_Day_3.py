@@ -25,6 +25,7 @@ Scissors = '''
 '''
 #Options and Player
 options_rps =[Rock, Paper, Scissors]
+#List Items Can Be Variables. 
 player_one = int(input("Type Your Option \n 1. Type (0) for Rock. \n 2. Type (1) for Paper. \n 3. Type (2) for Scissors.\n : "))
 if player_one <= 2:
 #Computer and Choices
