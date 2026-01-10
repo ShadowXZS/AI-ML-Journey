@@ -101,14 +101,93 @@ $$-(-2) - \frac{7+3}{5} = 0$$
 
 ---
 
-End of Log.
+# Day 6: Math - Inequalities, Boolean Logic & Automation
 
-## Order of Operations 
-Spacing for Visualization and Parentheses for grouping 
-Parentheses 
-Exponents 
-Multiplication 
-Division 
-Addition 
-Subtraction 
-## Double Check Calculations, With a Calculator. 
+**Date:** 2026-01-10
+**Status:** ✅ Complete
+**Tags:** #Math #Python #Logic #Automation #Latex
+
+---
+
+## 1. Order of Operations (PEMDAS)
+**Concept:** Python follows strict mathematical precedence.
+* **P**arentheses `()`
+* **E**xponents `**`
+* **M**ultiplication `*` & **D**ivision `/`
+* **A**ddition `+` & **S**ubtraction `-`
+
+### The "Silent" Error Risk
+Without parentheses, the logic changes completely.
+* **Written Math:** $(4+3) \times (2-1) = 7$
+* **Python (Wrong):** `4 + 3 * 2 - 1` $\rightarrow$ `4 + 6 - 1` $\rightarrow$ `9`
+* **Python (Correct):** `(4 + 3) * (2 - 1)` $\rightarrow$ `7`
+
+---
+
+## 2. Inequalities & Boolean Logic
+**Concept:** We use Python to rigorously test mathematical truth.
+* **Input:** Mathematical Statement (e.g., $4 > 3$)
+* **Output:** Boolean (`True` / `False`)
+* **Strict Typing:** `1` is an Integer. `True` is a Boolean.
+
+### The Problem Set
+We needed to verify if the inequality holds true for a set of $x$ values:
+$$4x + 3 < 17 - x^2$$
+**Values to Test:** $x \in \{2, 3, 4\}$
+
+---
+
+# Inequalities, Boolean Logic & Automation
+
+
+---
+
+## 1. Order of Operations (PEMDAS)
+**Concept:** Python follows strict mathematical precedence.
+* **P**arentheses `()`
+* **E**xponents `**`
+* **M**ultiplication `*` & **D**ivision `/`
+* **A**ddition `+` & **S**ubtraction `-`
+
+### The "Silent" Error Risk
+Without parentheses, the logic changes completely.
+* **Written Math:** $(4+3) \times (2-1) = 7$
+* **Python (Wrong):** `4 + 3 * 2 - 1` $\rightarrow$ `4 + 6 - 1` $\rightarrow$ `9`
+* **Python (Correct):** `(4 + 3) * (2 - 1)` $\rightarrow$ `7`
+
+---
+
+## 2. Inequalities & Boolean Logic
+**Concept:** We use Python to rigorously test mathematical truth.
+* **Input:** Mathematical Statement (e.g., $4 > 3$)
+* **Output:** Boolean (`True` / `False`)
+* **Strict Typing:** `1` is an Integer. `True` is a Boolean.
+
+### The Problem Set
+We needed to verify if the inequality holds true for a set of $x$ values:
+$$4x + 3 < 17 - x^2$$
+**Values to Test:** $x \in \{2, 3, 4\}$
+
+---
+
+## 3. The Engineering Solution (Automation)
+Instead of writing 3 separate print statements (The Amateur Way), we used a `for` loop to check the entire list (The System Way).
+
+### The Code (Refactored)
+```python
+from IPython.display import display, Math
+
+# 1. Define the Data Set
+x_values = [2, 3, 4]
+
+# 2. The Logic Loop
+for x in x_values:
+    # The Boolean Check
+    is_true = 4*x + 3 < 17 - x**2
+    
+    # The Output (With LaTeX Formatting)
+    # Note: We format the string FIRST, then pass to Math() object.
+    display(Math(
+        '4 \\cdot %g + 3 < 17 - %g^2 \\quad \\rightarrow \\quad \\text{%s}' 
+        % (x, x, is_true)
+    ))

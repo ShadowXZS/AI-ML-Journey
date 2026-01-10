@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "462e9c9666ec743b",
+        "id": "e9d4026be1289b1a",
         "type": "tabs",
         "children": [
           {
-            "id": "4208f660c3ed175d",
+            "id": "34bb7339ac7ad623",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -178,10 +178,12 @@
   },
   "active": "aae65968fe237d98",
   "lastOpenFiles": [
+    "00_Daily_Journal/Battle Log/The Day 2 Of Battle.md",
+    "02_Foundations/Mathematics/Foundation/Mastering Math With Python.md",
+    "01_Feedback_Loop/Mentor_Feedback/Day 5 Feedback.md",
     "00_Daily_Journal/Battle Log/The Day 1 Of Battle.md",
     "01_Feedback_Loop/Mentor_Feedback/Day 4 Feedback.md",
     "Untitled.md",
-    "02_Foundations/Mathematics/Foundation/Mastering Math With Python.md",
     "02_Foundations/Programming/Python_Basics.md",
     "The Breakthrough Mindset.md",
     "99_Resources/Books.md",
@@ -212,8 +214,6 @@
     "07_Meta_Learning",
     "06_Projects_Portfolio/Advanced",
     "06_Projects_Portfolio/Intermediate",
-    "05_AI_Applications/Speech_Recognition.md",
-    "05_AI_Applications/Computer_Vision/Object_Detection.md",
     "Untitled.canvas"
   ]
 }
